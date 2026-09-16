@@ -11,7 +11,7 @@ const Nav = () => {
           </button>
 
           <img
-            src="/assets/logo-text.png"
+            src={`${import.meta.env.BASE_URL}assets/logo-text.png`}
             alt="Dev Stack"
             className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0"
           />
