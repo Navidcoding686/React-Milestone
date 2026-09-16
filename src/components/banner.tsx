@@ -35,8 +35,9 @@ const Banner = () => {
 
                 <div className="flex justify-center">
                     <img
-                        src="/assets/banner-stack.png"
+                        src={`${import.meta.env.BASE_URL}assets/banner-stack.png`}
                         className="w-full max-w-125 object-contain"
+                        alt="Development stack"
                     />
                 </div>
 
