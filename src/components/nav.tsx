@@ -1,5 +1,8 @@
 import { HiOutlineMenu } from "react-icons/hi";
 
+const logoTextImage =
+  "https://raw.githubusercontent.com/Navidcoding686/React-Milestone/main/assets/logo-text.png";
+
 const Nav = () => {
   return (
     <nav className="bg-white shadow-md py-3 sticky top-0 z-50">
@@ -11,7 +14,7 @@ const Nav = () => {
           </button>
 
           <img
-            src={`${import.meta.env.BASE_URL}assets/logo-text.png`}
+            src={logoTextImage}
             alt="Dev Stack"
             className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0"
           />
