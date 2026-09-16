@@ -1,3 +1,5 @@
+const bannerStackImage = 'https://raw.githubusercontent.com/Navidcoding686/React-Milestone/main/assets/banner-stack.png';
+
 const Banner = () => {
     return (
         <div className="bg-white">
@@ -35,7 +37,7 @@ const Banner = () => {
 
                 <div className="flex justify-center">
                     <img
-                        src={`${import.meta.env.BASE_URL}assets/banner-stack.png`}
+                        src={bannerStackImage}
                         className="w-full max-w-125 object-contain"
                         alt="Development stack"
                     />
